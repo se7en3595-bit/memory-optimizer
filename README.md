@@ -126,7 +126,7 @@ memory/
 
 ## 📝 License
 
-MIT © Newmax Team
+MIT © Se7en
 
 ---
 
