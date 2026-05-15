@@ -1,0 +1,33 @@
+{
+  "name": "memory-optimizer",
+  "version": "0.8.0",
+  "description": "Transparent token compression for Newmax AI conversations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "vitest",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "newmax",
+    "memory",
+    "token-optimization",
+    "agent",
+    "mermaid"
+  ],
+  "author": "Newmax Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "newmax-core": ">=2.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
