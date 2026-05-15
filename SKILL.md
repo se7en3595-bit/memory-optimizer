@@ -14,7 +14,7 @@ triggers:
 metadata:
   category: optimization
   version: "0.8.0"
-  author: Newmax Team
+  author: Se7en
   homepage: https://niuma.limyai.com
   targets:
     - all-conversations  # 应用于所有对话
@@ -331,4 +331,18 @@ npx memory-optimizer retroactive --conv-id {conversation_id}
 
 ---
 
-MIT © Newmax Team
+## 部署状态
+
+| 项目 | 状态 |
+|------|------|
+| TypeScript 编译 | ✅ 完成 (dist/scripts/) |
+| message-pipeline.json | ✅ 已配置 |
+| tools.json | ✅ 已配置 |
+| memory 存储目录 | ✅ 已创建 |
+| 牛马AI 重启 | ⏳ 待重启后生效 |
+
+**编译命令**: `cd .claude/skills/memory-optimizer && npx tsc`
+
+---
+
+MIT © Se7en

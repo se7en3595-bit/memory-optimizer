@@ -225,4 +225,4 @@ AI 应自动调用 `memory_retrieve(node_id="...")` 并返回完整信息。
 
 ---
 
-**MIT © Newmax Team**
+**MIT © Se7en**
