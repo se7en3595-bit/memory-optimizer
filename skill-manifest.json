@@ -1,0 +1,33 @@
+{
+  "$schema": "https://newmax.ai/schemas/skill-manifest-v1.json",
+  "id": "memory-optimizer",
+  "name": "memory-optimizer",
+  "version": "0.8.0",
+  "description": "Token 压缩优化器。通过 LLM 主动将重型内容写入磁盘并替换为轻量引用，保持上下文精简。支持 Mermaid 符号图追踪任务状态和按需检索卸载内容。",
+  "category": "productivity",
+  "tags": ["memory", "token-optimization", "context", "productivity"],
+  "author": {
+    "name": "Se7en"
+  },
+  "loading_mechanism": "skill-handler",
+  "loading_notes": "通过 mcp__skill-handler__Skill 调用，LLM 读取 SKILL.md 内容后主动执行压缩行为。不依赖 middleware 或 pipeline 注入。",
+  "dependencies": {
+    "node_modules": false,
+    "external_tools": [],
+    "required_skills": []
+  },
+  "configuration": {
+    "environment_variables": [],
+    "default_settings": {}
+  },
+  "compatibility": {
+    "platforms": ["windows", "linux", "macos"],
+    "node_versions": [">=16.0.0"]
+  },
+  "metadata": {
+    "created_date": "2026-05-20",
+    "last_updated": "2026-05-26",
+    "documentation_complete": true,
+    "source": "SKILL.md"
+  }
+}

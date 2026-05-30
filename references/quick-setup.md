@@ -8,10 +8,10 @@
 
 ```powershell
 # 确保目标目录存在
-mkdir E:\WorkSpace\Newmax\.claude\skills\memory-optimizer -Force
+mkdir E:\WorkSpace\Newmax\.newmax\skills\memory-optimizer -Force
 
 # 复制所有文件（假设你在当前目录）
-xcopy .\* E:\WorkSpace\Newmax\.claude\skills\memory-optimizer\ /E /Y
+xcopy .\* E:\WorkSpace\Newmax\.newmax\skills\memory-optimizer\ /E /Y
 ```
 
 ---

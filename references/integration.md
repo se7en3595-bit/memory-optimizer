@@ -55,7 +55,7 @@ E:/WorkSpace/Newmax/config/message-pipeline.json  (或类似路径)
       // ... 其他 middleware
       {
         "type": "module",
-        "path": "~/.newmax/skills/memory-optimizer/scripts/middleware.ts",
+        "path": "~/.claude/skills/memory-optimizer/scripts/middleware.ts",
         "config": {
           "enabled": true,
           "storage_path": "${workspace}/memory",
@@ -104,7 +104,7 @@ E:/WorkSpace/Newmax/config/tools.json
     {
       "name": "memory_retrieve",
       "description": "Retrieve full content of an offloaded memory node by node_id",
-      "handler": "~/.newmax/skills/memory-optimizer/scripts/retrieve.ts#retrieveHandler",
+      "handler": "~/.claude/skills/memory-optimizer/scripts/retrieve.ts#retrieveHandler",
       "parameters": {
         "type": "object",
         "properties": {
@@ -123,7 +123,7 @@ E:/WorkSpace/Newmax/config/tools.json
     {
       "name": "memory_search",
       "description": "Full-text search across offloaded memory contents",
-      "handler": "~/.newmax/skills/memory-optimizer/scripts/retrieve.ts#searchHandler",
+      "handler": "~/.claude/skills/memory-optimizer/scripts/retrieve.ts#searchHandler",
       "parameters": {
         "type": "object",
         "properties": {
